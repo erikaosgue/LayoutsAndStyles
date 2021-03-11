@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">My First App</string>
+    <string name="button_name">Show Name</string>
+    <string name="title">Enter Your Name</string>
+    <string name="new_hint">New hint</string>
+    <string name="hint_name">Enter Your Name</string>
+</resources>
