@@ -25,8 +25,8 @@ class MainActivity : AppCompatActivity() {
         // Appears the message Hello there, for a short time
         Toast.makeText(this, "Hello there", Toast.LENGTH_LONG)
             .show()
-        **/
 
+        **/
         /************************* Exercise 2 **********************/
         // Exercise of Linear Layouts
         //* Add a Child LinearLayout and Inside of this add the grant children
@@ -42,9 +42,15 @@ class MainActivity : AppCompatActivity() {
             * alignBottom
         */
 
+        /************************* Exercise 4 **********************/
+        // Table row Layout
+
+
 
 
 
 
     }
 }
+
+
