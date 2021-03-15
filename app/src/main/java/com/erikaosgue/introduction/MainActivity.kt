@@ -15,6 +15,9 @@ class MainActivity : AppCompatActivity() {
         activityMainBinding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(activityMainBinding.root)
 
+
+        /************************* Exercise 1 **********************/
+        /**
         var enterText = enterNameEdt.text
 
         showNameButton.setOnClickListener{ resultId.text = enterText}
@@ -22,6 +25,25 @@ class MainActivity : AppCompatActivity() {
         // Appears the message Hello there, for a short time
         Toast.makeText(this, "Hello there", Toast.LENGTH_LONG)
             .show()
+        **/
+
+        /************************* Exercise 2 **********************/
+        // Exercise of Linear Layouts
+        //* Add a Child LinearLayout and Inside of this add the grant children
+
+
+        /************************* Exercise 3 **********************/
+        // Exercise of Relative Layouts
+        /* Change the Parent constraint for RelativeLayout
+        KeyWords:
+            * centerHorizontal
+            * centerVertical
+            * toRightOf
+            * alignBottom
+        */
+
+
+
 
 
     }
