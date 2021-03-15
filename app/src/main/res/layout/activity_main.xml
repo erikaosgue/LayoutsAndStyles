@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Exercise 1, 2 -->
-<!-- -->
+<!--
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:app="http://schemas.android.com/apk/res-auto"
         xmlns:tools="http://schemas.android.com/tools"
@@ -8,6 +8,7 @@
         android:layout_height="match_parent"
         tools:context=".MainActivity">
 
+-->
 
     <!-- *****************  Exercise 1 ****************************** -->
     <!-- ***** Basic usage of ViewText, EditText, Button **** -->
@@ -105,16 +106,15 @@
     </LinearLayout>
     -->
 
-</androidx.constraintlayout.widget.ConstraintLayout>
-<!-- -->
-
-<!-- ***********************  Exercise 3 ****************************** -->
-    <!-- **** Relative Layout Align items nextTo, left, below etc*** -->
-
-
-
-<!-- Exercise 3 -->
 <!--
+</androidx.constraintlayout.widget.ConstraintLayout>
+-->
+
+<!-- ****************Exercise 3, 4, 5 ************************ -->
+
+
+
+
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
@@ -122,6 +122,9 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+<!--******** Exercise 3 Relative Layout ******-->
+    <!-- **** Relative Layout Align items nextTo, left, below etc*** -->
+    <!--
     <Button
         android:id="@+id/button4"
         android:layout_centerHorizontal="true"
@@ -149,6 +152,103 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="TextView" />
+        End Exercise 3-->
+
+<!-- ******* Exercise 4 Table Row *********-->
+    <!--
+    <TableLayout
+        android:layout_width="374dp"
+        android:layout_height="674dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="33dp"
+        android:layout_marginEnd="22dp"
+        android:padding="15dp">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="12dp"
+            android:background="@color/teal_700">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="20dp"
+                android:text="First Name"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:paddingLeft="20dp"
+                android:text="Last Name"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="20dp"
+                android:text="age"
+                android:textColor="@color/black" />
+
+        </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="12dp"
+        android:layout_marginTop="12dp"
+        android:background="@color/teal_700">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="20dp"
+            android:text="Bonny"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:paddingLeft="20dp"
+            android:text="Melendez"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="20dp"
+            android:text="31"
+            android:textColor="@color/black" />
+
+    </TableRow>
+
+    </TableLayout>
+    -->
+
+<!-- ******* Exercise 5 Scrow View ****** -->
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="193dp"
+        android:background="@color/design_default_color_secondary">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/text_lorem" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Button" />
+
+    </ScrollView>
 
 </RelativeLayout>
--->
