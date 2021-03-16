@@ -17,8 +17,7 @@ class MainActivity : AppCompatActivity() {
 
 
         /************************* Exercise 1 **********************/
-        /**
-        var enterText = enterNameEdt.text
+        val enterText = enterNameEdt.text
 
         showNameButton.setOnClickListener{ resultId.text = enterText}
 
@@ -26,7 +25,6 @@ class MainActivity : AppCompatActivity() {
         Toast.makeText(this, "Hello there", Toast.LENGTH_LONG)
             .show()
 
-        **/
         /************************* Exercise 2 **********************/
         // Exercise of Linear Layouts
         //* Add a Child LinearLayout and Inside of this add the grant children
