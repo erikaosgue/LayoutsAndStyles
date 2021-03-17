@@ -8,7 +8,7 @@
         tools:context=".MainActivity">
 
 
-    <!-- *****************  Exercise 1 ****************************** -->
+    <!-- *****************  Exercise 1   ****************************** -->
     <!-- ***** Basic usage of ViewText, EditText, Button **** -->
 <!--    start -->
     <Button
@@ -70,14 +70,9 @@
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent" />
 
-
-
 </androidx.constraintlayout.widget.ConstraintLayout>
 
     <!-- End-->
-
-
-
 
     <!-- *****************  Exercise 2 ****************************** -->
     <!-- ****** Implementing Linear Layouts****** -->
