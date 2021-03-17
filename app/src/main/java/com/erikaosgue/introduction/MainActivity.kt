@@ -15,6 +15,7 @@ class MainActivity : AppCompatActivity() {
         activityMainBinding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(activityMainBinding.root)
 
+        // Todo: This is an example of a todo, pending to do
 
         /************************* Exercise 1 **********************/
         val enterText = enterNameEdt.text
@@ -49,6 +50,9 @@ class MainActivity : AppCompatActivity() {
 
 
     }
+
 }
+
+
 
 
